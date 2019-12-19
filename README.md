@@ -11,10 +11,10 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
     name = "d2l_rules_brotli",
-    sha256 = "Y",
-    strip_prefix = "rules_brotli-X",
+    sha256 = "bef45321ba8030e11c4e9935591c5a656d5da3a6147ab8558c31af8f764e3a92",
+    strip_prefix = "rules_brotli-56bcb605599c1b5ef23bc68aef7b0985bfda7c76",
     urls = [
-        "https://github.com/brightspace/rules_brotli/archive/X.tar.gz",
+        "https://github.com/brightspace/rules_brotli/archive/56bcb605599c1b5ef23bc68aef7b0985bfda7c76.tar.gz",
     ],
 )
 
