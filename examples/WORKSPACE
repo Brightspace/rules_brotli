@@ -1,0 +1,8 @@
+local_repository(
+  name = "d2l_rules_brotli",
+  path = "..",
+)
+
+load("@d2l_rules_brotli//brotli:defs.bzl", "brotli_repositories")
+
+brotli_repositories()
